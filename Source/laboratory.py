@@ -2,7 +2,7 @@
 A simple LabPal setup using Jython
 """
 import sys
-sys.path.append('Source/labpal.jar')
+sys.path.append('labpal.jar')
 from ca.uqac.lif.labpal import Laboratory, Experiment
 
 """
