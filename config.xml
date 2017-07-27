@@ -34,8 +34,8 @@
   
   <!-- Output jar -->
   <jar>
-    <filename>my-lab.jar</filename>
-    <withdeps>true</withdeps>
+    <filename>my-lab.jar</filename> 
+    <withdeps>true</withdeps>  <!-- true -->
     <withdoc>false</withdoc>
   </jar>
   
@@ -44,7 +44,7 @@
   <bindir>Source/bin</bindir>
   <docdir>Source/doc</docdir>
   <libdir>Source/lib</libdir>
-  <depdir>Source</depdir>
+  <depdir>Source</depdir> 
   <pyfile>Source/laboratory.py</pyfile>
   
   <!--
