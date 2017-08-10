@@ -68,7 +68,8 @@
       <name>jython</name>
       <classname>jython</classname> <!-- this will force a download -->
       <files>
-        <jar>http://search.maven.org/remotecontent?filepath=org/python/jython-standalone/2.7.0/jython-standalone-2.7.0.jar</jar>
+        <!--<jar>http://search.maven.org/remotecontent?filepath=org/python/jython-standalone/2.7.0/jython-standalone-2.7.0.jar</jar>-->
+        <jar>https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.0/jython-standalone-2.7.0.jar</jar>
       </files>
     </dependency>
   </dependencies>
