@@ -32,20 +32,24 @@
   shows up in the footer of the Javadoc documentation. -->
   <author>Emmett Brown</author>
   
+  <!-- The project's main class -->
+  <!--<mainclass>mylab.MyLaboratory</mainclass>-->
+  
   <!-- Output jar -->
   <jar>
-    <filename>my-lab.jar</filename> 
-    <withdeps>true</withdeps>  <!-- true -->
+    <filename>my-lab.jar</filename>
+    <withdeps>true</withdeps>
     <withdoc>false</withdoc>
   </jar>
   
   <!-- Redefine directories -->
-  <srcdir>Source/src</srcdir>
-  <bindir>Source/bin</bindir>
+  <srcdir>Source/Core/src</srcdir>
+  <bindir>Source/Core/bin</bindir>
   <docdir>Source/doc</docdir>
   <libdir>Source/lib</libdir>
-  <depdir>Source</depdir> 
+  <depdir>Source/dep</depdir>
   <pyfile>Source/laboratory.py</pyfile>
+  <sourcedir>Source</sourcedir>
   
   <!--
     Write JAR dependencies here.
