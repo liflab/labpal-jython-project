@@ -8,6 +8,7 @@
 *.swp
 *.bak
 *.old
+.DS_Store
 
 # Auto-generated folders
 /doc/
